@@ -23,7 +23,6 @@ export default function Form() {
     }
 
     useEffect(()=>{
-        console.log(result);
         updateResult(gradient(textInput, colorStart, colorEnd));
     }, [textInput, colorStart, colorEnd, result])
 

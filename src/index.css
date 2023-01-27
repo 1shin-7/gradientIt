@@ -33,10 +33,7 @@ body {
 }
 
 .footer {
-    padding: 2rem;
-    position: fixed;
-    left: 0;
-    bottom: 0;
+    margin: 20rem auto 2rem;
     width: 100%;
     color: #251f0e;
     font-size: 1rem;
