@@ -12,11 +12,18 @@ body {
     margin: 3rem auto 0;
 }
 
+.repo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #251f0e;
+}
+
 .title {
     color: #bc986a;
-    font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+    font-family: "Roboto", "ui-sans-serif", sans-serif;
     font-size: 3rem;
-    font-weight: bold;
+    font-weight: bolder;
     letter-spacing: -1px;
     line-height: 1;
     text-align: center;
@@ -24,7 +31,7 @@ body {
 
 .subtitle {
     color: #56452d;
-    font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+    font-family: "Arial Rounded MT Bold", "ui-sans-serif", sans-serif;
     font-size: 1rem;
     font-weight: bold;
     letter-spacing: -1px;
@@ -33,14 +40,24 @@ body {
 }
 
 .footer {
-    margin: 20rem auto 2rem;
+    align-self: flex-start;
+    margin: 17rem auto 2rem;
     width: 100%;
     color: #251f0e;
-    font-size: 1rem;
+    font-size: 0.9rem;
     text-align: center;
 }
 
 .footer span:not(:last-child):after {
     content: ' / ';
-    display:inline;
+    display: inline;
+}
+
+.footer span a {
+    text-decoration: none;
+    color: #0072e5;
+}
+
+.footer span a:hover {
+    text-decoration: underline;
 }

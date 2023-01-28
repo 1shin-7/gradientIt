@@ -1,6 +1,6 @@
 {
-  "name": "gradientIt",
-  "version": "0.1.1",
+  "name": "gradient_it",
+  "version": "0.1.2",
   "private": true,
   "dependencies": {
     "@eisberg-labs/mui-copy-field": "^3.0.1",
